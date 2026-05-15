@@ -1,148 +1,176 @@
-# # nomes = ['Marcos', 'Gabriel','Pablo','Ricardo']
+# # # nomes = ['Marcos', 'Gabriel','Pablo','Ricardo']
 
-# # info = ['Marcos', 26, 1.88, 'Full-Stack',True]
-
-# info = {
-#     'nome' : 'Marcos',
-#     'idade': 26,
-#     'altura': 1.88,
-#     'Especialidade': 'Full-Stack',
-#     'Front-End': True
-
-# }
-
-# # print(type(info))
-
-# # print(info['nome'])
-# # print(info['idade'])
-# # print(info['altura'])
-# # print(info['Especialidade'])
-
-
-# # info['FilmeFavorito'] = 'Curtindo a vida adoidado'
-
-# # print(info)
-
-# # del info['Especialidade']
-
-# # print(info)
-# # info.pop('idade')
-# # print(info.pop('nome'))
-# # print(info)
-
-
-# # info = {
-# #     'Nome' : 'Marcos'
-# # }
-
-# # info['Nome'] = 'Marcos Paulo Simoes Leite Pereira'
-
-# # print(info)
+# # # info = ['Marcos', 26, 1.88, 'Full-Stack',True]
 
 # # info = {
 # #     'nome' : 'Marcos',
-# #     'email': 'exemplo@email.com'
-# # }
-
-# # if 'telefone' in info:
-# #     print(f'possui essa chave ? {info['telefone']}')
-# # else:
-# #     print('nao tem essa chave')
-
-
-# # telefone = info.get('telefone', 'nao possui')
-
-# # print(telefone)
-
-# # print(info['email'])
-
-# # info.clear()
-
-# # print(info)
-
-
-# # info = {
-# #     'Nome': 'Marcos',
-# #     'Idade': 26, 
-# #     'Altura': 1.88,
+# #     'idade': 26,
+# #     'altura': 1.88,
 # #     'Especialidade': 'Full-Stack',
-# #     'Corfavorita': 'Azul'
+# #     'Front-End': True
+
+# # }
+
+# # # print(type(info))
+
+# # # print(info['nome'])
+# # # print(info['idade'])
+# # # print(info['altura'])
+# # # print(info['Especialidade'])
+
+
+# # # info['FilmeFavorito'] = 'Curtindo a vida adoidado'
+
+# # # print(info)
+
+# # # del info['Especialidade']
+
+# # # print(info)
+# # # info.pop('idade')
+# # # print(info.pop('nome'))
+# # # print(info)
+
+
+# # # info = {
+# # #     'Nome' : 'Marcos'
+# # # }
+
+# # # info['Nome'] = 'Marcos Paulo Simoes Leite Pereira'
+
+# # # print(info)
+
+# # # info = {
+# # #     'nome' : 'Marcos',
+# # #     'email': 'exemplo@email.com'
+# # # }
+
+# # # if 'telefone' in info:
+# # #     print(f'possui essa chave ? {info['telefone']}')
+# # # else:
+# # #     print('nao tem essa chave')
+
+
+# # # telefone = info.get('telefone', 'nao possui')
+
+# # # print(telefone)
+
+# # # print(info['email'])
+
+# # # info.clear()
+
+# # # print(info)
+
+
+# # # info = {
+# # #     'Nome': 'Marcos',
+# # #     'Idade': 26, 
+# # #     'Altura': 1.88,
+# # #     'Especialidade': 'Full-Stack',
+# # #     'Corfavorita': 'Azul'
+# # # }
+
+
+# # # for chave in info.keys(): # mostrar so as chaves
+# # #     print(f'a chave é {chave}')
+
+# # # for valores in info.values(): # so os valores
+# # #     print(f'so os valores {valores}')
+
+
+# # # for chave, valor in info.items():
+# # #     print(f'as chaves sao {chave} e os valores sao {valor}')
+
+
+# # valores = {
+# #     'salario' : 2500,
+# #     'salario2' : 9000
 # # }
 
 
-# # for chave in info.keys(): # mostrar so as chaves
-# #     print(f'a chave é {chave}')
+# # somando = valores.values()
 
-# # for valores in info.values(): # so os valores
-# #     print(f'so os valores {valores}')
-
-
-# # for chave, valor in info.items():
-# #     print(f'as chaves sao {chave} e os valores sao {valor}')
+# # print(sum(valores.values()))
+# # print(sum(somando))
 
 
-# valores = {
-#     'salario' : 2500,
-#     'salario2' : 9000
+# # estoque = {
+# #     'notebook': 15,
+# #     'mouses': 50,
+# #     'teclados': 30,
+# #     'monitores': 8
+# # }
+
+# # chaves = estoque.keys() 
+
+# # print(list(chaves)) # transformando em lista
+
+
+# # for chave in chaves:
+# #     print(chave)
+
+# # if 'mouses' in chaves:
+# #     print('possui disponivel')
+
+# # else:
+# #     print('nao possui')
+
+
+# vendas = {
+#     'janeiro': 1500,
+#     'fevereiro': 1800,
+#     'marco': 22000,
+#     'abril': 19500,
+#     'maio': 25000
 # }
 
+# print(vendas.items())
 
-# somando = valores.values()
+# # vendas2 = {
+# #     1: 1500,
+# #     2: 1800,
+# #     3: 22000,
+# #     4: 19500,
+# #     5: 25000
+# # }
 
-# print(sum(valores.values()))
-# print(sum(somando))
+
+# # valores = vendas.values()
+# # valores2 = vendas2.values()
+
+# # total = sum(valores)
+
+# # media = total / len(vendas)
+
+# # maiorValor = max(valores)
+
+# # print(f'''
+# #       o total dos meses é {total}
+# #       a media é {media}
+# #       o maior valor é {maiorValor}
+# #       ''')
+
+populacoes = {"Brasil": 215_000_000, "China": 1_400_000_000, "EUA": 333_000_000, "Índia": 1_220_000_000} 
+
+paisMaior = ''
+
+# populacaoMaior = 0
+
+# for pais, populacao in populacoes.items():
+#     if populacao > populacaoMaior:
+#         paisMaior = pais
+#         populacaoMaior = populacao
+# print(f'o pais com a maior população é {paisMaior} e sua populção é de {populacaoMaior}')
 
 
-# estoque = {
-#     'notebook': 15,
-#     'mouses': 50,
-#     'teclados': 30,
-#     'monitores': 8
+
+# populacoes = {
+#     "Brasil": 215_000_000,
+#     "China": 1_400_000_000,
+#     "EUA": 333_000_000,
+#     "Índia": 1_220_000_000
 # }
 
-# chaves = estoque.keys() 
+# pais_maior = max(populacoes, key=populacoes.get)
+# populacao_maior = populacoes[pais_maior]
 
-# print(list(chaves)) # transformando em lista
-
-
-# for chave in chaves:
-#     print(chave)
-
-# if 'mouses' in chaves:
-#     print('possui disponivel')
-
-# else:
-#     print('nao possui')
-
-
-vendas = {
-    'janeiro': 1500,
-    'fevereiro': 1800,
-    'marco': 22000,
-    'abril': 19500,
-    'maio': 25000
-}
-
-vendas2 = {
-    1: 1500,
-    2: 1800,
-    3: 22000,
-    4: 19500,
-    5: 25000
-}
-
-
-valores = vendas.values()
-valores2 = vendas2.values()
-
-total = sum(valores)
-
-media = total / len(vendas)
-
-maiorValor = max(valores)
-
-print(f'''
-      o total dos meses é {total}
-      a media é {media}
-      o maior valor é {maiorValor}
-      ''')
+# print(f"O país com a maior população é {pais_maior} e sua população é de {populacao_maior}")
